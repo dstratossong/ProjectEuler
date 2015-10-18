@@ -6,7 +6,12 @@ Solutions to Project Euler problems, in both Java and Clojure languages. The sol
 
 ### Clojure (with Lein)
 
-The Clojure sources are packaged using Leiningen. In each problem namespace, there are always two variables defined: `problem` and `solution`. `problem` is a string containing a paraphrasing of the original problem; `solution` is a number that is the correct solution of the problem, tested against Project Euler. There are the following useful commands:
+The Clojure sources are packaged using Leiningen. In each problem namespace, there are always two variables defined:
+
+- `problem`, a string containing a paraphrasing of the original problem
+- `solution`, a number that is the correct solution of the problem, tested against Project Euler.
+
+There are the following useful commands:
 
 ```Bash
 lein test          # run against defined tests
@@ -26,5 +31,4 @@ project-euler.problem-1/solution           ; gets the solution
 
 Copyright © 2015
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License.
