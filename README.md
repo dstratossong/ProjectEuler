@@ -4,15 +4,15 @@ Solutions to Project Euler problems, in both Java and Clojure languages. The sol
 
 ## Usage
 
-### Clojure (with Lein)
+### Clojure
 
-The Clojure sources are packaged using Leiningen. In each problem namespace, there are always two variables and a function defined:
+The Clojure sources are packaged using Leiningen, and lies in the directory `src/project_euler`. In each problem namespace, there are always two variables and a function defined:
 
 - `problem`, a string containing a paraphrasing of the original problem
 - `solution`, a number that is the correct solution of the problem, tested against Project Euler.
 - `solver`, a function that takes some parameter that solves a more general problem than that which is specified
 
-There are the following useful commands:
+Furthermore, with each problem, there are simple test suites defined in the directory `test/project_euler`. These are some useful commands:
 
 ```Bash
 lein test          # run against defined tests
