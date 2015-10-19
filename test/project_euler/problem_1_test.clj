@@ -4,6 +4,6 @@
 
 (deftest suite
   (testing "zero not included"
-    (is (= (multiples-of-3-and-5 0) 0)))
+    (is (= (solver 0) 0)))
   (testing "multiples under 10"
-    (is (= (multiples-of-3-and-5 10) 23))))
+    (is (= (solver 10) 23))))
