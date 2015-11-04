@@ -113,6 +113,10 @@ class Problem8 {
 			} else {
 				// Lastly, if inFactor is 0, then the current product is zero
 				curProduct = 0;
+				
+				// Skip the next NUM_ADJACENT_DIGITS adjacent products
+				// because they will all be zero!
+				i+= NUM_ADJACENT_DIGITS - 1;
 			}
 
 			// if the current product is larger than the
