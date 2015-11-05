@@ -84,10 +84,10 @@ class Problem8 {
 		prevAdjacentProduct = largestProduct;
 		
 		for(int i = NUM_ADJACENT_DIGITS; i < LENGTH; i++) {
-			// the factor that will be leaving the largestProduct
+			// the factor that will be leaving the prevAdjacentProduct
 			int outFactor = NUM_STR.charAt(i-NUM_ADJACENT_DIGITS) - '0';
 			
-			// the factor that will be entering largestProduct
+			// the factor that will be entering prevAdjacentProduct
 			int inFactor = NUM_STR.charAt(i) - '0';
 			
 			// The next adjacent product from NUM_STR
