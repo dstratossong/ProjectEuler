@@ -41,9 +41,11 @@ public class Problem9 {
 	 * 		That is find
 	 * 		{ a * b * c | a < b < c; a^2 + b^2 = c^2 and a + b + c = sum }
 	 * </p>
+	 * 
+	 * @return	The product > 0 or -1 if the solution could not be determined
 	 **/
 	public static int getProductOfPythagoreanTriplet(int sum) {
-		int product = 1;
+		int product = -1;
 		for(int c = 5; c < sum; c++) {
 			for (int b = 4; b < c; b++) {
 				int a = sum - c - b;
