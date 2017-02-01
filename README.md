@@ -1,6 +1,6 @@
 # project-euler
 
-Solutions to Project Euler problems, in both Java and Clojure languages. The solutions are written by Arshan Alam, and David Song, both computer science students of the University of Waterloo.
+Solutions to Project Euler problems, in Clojure, authored by David Song.
 
 ## Usage
 

@@ -9,3 +9,14 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/bin/
+
+# Ignore exclipse project files and directories
+.classpath
+.project
+.settings/
