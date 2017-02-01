@@ -1,6 +1,5 @@
 (ns project-euler.core)
 
-(defn foo
+(defn -main
   "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+  [& args])
