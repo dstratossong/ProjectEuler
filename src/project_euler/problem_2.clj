@@ -12,5 +12,6 @@
 (def problem
   "Find the sum of even-valued Fibonacci numbers that do not exceed four million.")
 
-(def solution
+(defn solution
+  []
   (solver 4000000))

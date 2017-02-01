@@ -14,5 +14,6 @@
 (def problem
   "Find the largest palindrome made from the product of two 3-digit numbers.")
 
-(def solution
+(defn solution
+  []
   (apply max (solver 100 1000)))

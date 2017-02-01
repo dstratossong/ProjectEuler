@@ -20,5 +20,6 @@
 (def problem
   "Find the 10001st prime.")
 
-(def solution
+(defn solution
+  []
   (first (solver 10001)))

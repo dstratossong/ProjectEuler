@@ -4,8 +4,6 @@ Solutions to Project Euler problems, in Clojure, authored by David Song.
 
 ## Usage
 
-### Clojure
-
 The Clojure sources are packaged using Leiningen, and lies in the directory `src/project_euler`. In each problem namespace, there are always two variables and a function defined:
 
 - `problem`, a string containing a paraphrasing of the original problem
@@ -24,7 +22,7 @@ After getting the REPL, you can interact with the project:
 ```Clojure
 (require 'project-euler.problem-1)         ; put into scope
 project-euler.problem-1/problem            ; gets the problem text
-project-euler.problem-1/solution           ; gets the solution
+(project-euler.problem-1/solution)         ; gets the solution
 (doc project-euler.problem-1/solver)       ; gets the general problem
 (source project-euler.problem-1/solver)    ; check its source
 ```

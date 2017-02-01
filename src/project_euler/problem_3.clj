@@ -21,5 +21,6 @@
 (def problem
   "Find the largest prime factor of 600851475143.")
 
-(def solution
+(defn solution
+  []
   (first (solver 600851475143)))
